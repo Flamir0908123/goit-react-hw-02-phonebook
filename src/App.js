@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Input from "./Input/Input";
-import ContactsList from "./ContactsList/ContactsList";
-import FiltrByName from "./FiltrByName/FiltrByName";
+import Input from "./Components/Input/Input";
+import ContactsList from "./Components/ContactsList/ContactsList";
+import FiltrByName from "./Components/FiltrByName/FiltrByName";
 const { v4: uuidv4 } = require("uuid");
 
 class App extends Component {
